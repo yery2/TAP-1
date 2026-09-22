@@ -97,7 +97,7 @@ public class Bank {
         } catch (ClassNotFoundException e3) {
             e3.printStackTrace();
         }
-
+        fis.close();
         return b;
     }
 
